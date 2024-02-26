@@ -1,2 +1,2 @@
-<h1>Java-Sem-4 </h1>
-Diploma Semester 4 Java
+<h1>Advanced Object Oriented Programming (Java)</h1>
+Diploma 4<sup>th</sup> Semester
