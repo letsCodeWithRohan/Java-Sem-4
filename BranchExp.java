@@ -19,9 +19,13 @@ class BranchExp {
                         user1.deposit(scan.nextInt());
                         break;
                     case 3:
-                        System.out.print("Enter the amount to Withdraw : ");
+                    System.out.print("Enter the amount to Withdraw : ");
+                    try {
                         user1.withdraw(scan.nextInt());
-                        break;
+                    } catch (ArithmeticException e) {
+                        System.out.println(e.getMessage());
+                    }
+                    break;
                     case 4:
 						System.out.println("\n----- Good Bye -----");
                         System.out.println("Thanks For Visiting My System !!!");
